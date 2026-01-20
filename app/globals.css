@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Neobrutal Theme Colors */
+    --background: 250 100% 98%;
+    --foreground: 0 0% 5%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 5%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 5%;
+    --primary: 280 100% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 100% 60%;
+    --secondary-foreground: 0 0% 5%;
+    --accent: 165 100% 50%;
+    --accent-foreground: 0 0% 5%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 0%;
+    --input: 0 0% 0%;
+    --ring: 280 100% 65%;
+    --radius: 0rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .neo-brutal-shadow {
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  .neo-brutal-shadow-lg {
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  .neo-brutal-shadow-xl {
+    box-shadow: 12px 12px 0px 0px rgba(0, 0, 0, 1);
+  }
+
+  .neo-brutal-border {
+    border: 3px solid black;
+  }
+
+  .neo-brutal-card {
+    @apply neo-brutal-border neo-brutal-shadow bg-white p-6 transition-all duration-200;
+  }
+
+  .neo-brutal-card:hover {
+    @apply neo-brutal-shadow-lg translate-x-[-2px] translate-y-[-2px];
+  }
+
+  .neo-brutal-button {
+    @apply neo-brutal-border neo-brutal-shadow px-6 py-3 font-bold uppercase tracking-wide transition-all duration-200 hover:translate-x-[-2px] hover:translate-y-[-2px] hover:neo-brutal-shadow-lg active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Wave Animation for Button Text */
+@layer components {
+  .wave-button {
+    position: relative;
+  }
+
+  .wave-button:hover .wave-letter {
+    animation: wave 0.5s ease-in-out;
+    animation-delay: calc(var(--letter-index) * 0.05s);
+  }
+
+  @keyframes wave {
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    25% {
+      transform: translateY(-3px) rotate(-2deg);
+    }
+    50% {
+      transform: translateY(-4px) rotate(2deg);
+    }
+    75% {
+      transform: translateY(-3px) rotate(-1deg);
+    }
+  }
+
+  .wave-letter {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+}
