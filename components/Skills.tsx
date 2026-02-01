@@ -8,11 +8,15 @@ export default function Skills() {
   const skillCategories = skills.categories.map((category, idx) => ({
     title: category.title,
     color: idx === 0 ? 'bg-purple-300' : idx === 1 ? 'bg-yellow-300' : 'bg-cyan-300',
-    skills: category.skills.map(skill => ({ name: skill, level: 90 })), // Default level, can be customized
+    skills: category.skills.map(skill =>
+      typeof skill === 'string' ? { name: skill, level: 85 } : { name: skill.name, level: skill.level }
+    ),
   }));
 
   // Flatten all skills for technology tags
-  const technologies = skills.categories.flatMap(category => category.skills);
+  const technologies = skills.categories.flatMap(category =>
+    category.skills.map(s => (typeof s === 'string' ? s : s.name))
+  );
 
   return (
     <section id="skills" className="py-20 px-4 bg-gradient-to-br from-purple-50 via-white to-yellow-50">

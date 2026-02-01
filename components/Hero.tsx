@@ -85,7 +85,7 @@ export default function Hero() {
 
           {/* Right Content - Decorative Element */}
           <div className="relative hidden lg:block group">
-            <div className="relative w-full aspect-square transition-transform duration-500 ease-out group-hover:scale-105">
+            <div className="relative w-[92%] aspect-square transition-transform duration-500 ease-out group-hover:scale-105">
               {/* Main Card */}
               <div className="absolute inset-0 neo-brutal-border neo-brutal-shadow-xl bg-gradient-to-br from-purple-400 to-purple-600 rotate-3 rounded-lg transition-all duration-500 ease-out group-hover:rotate-6 group-hover:shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] group-hover:from-purple-500 group-hover:to-purple-700"></div>
               <div className="absolute inset-0 neo-brutal-border neo-brutal-shadow-xl bg-gradient-to-br from-yellow-300 to-yellow-400 -rotate-3 rounded-lg transition-all duration-500 ease-out group-hover:-rotate-6 group-hover:shadow-[16px_16px_0px_0px_rgba(0,0,0,1)] group-hover:from-yellow-400 group-hover:to-yellow-500"></div>

@@ -36,34 +36,34 @@ export const personalData = {
       {
         title: "Languages & Web Technologies",
         skills: [
-          "JavaScript",
-          "HTML",
-          "CSS",
-          "ReactJS/NextJS",
-          "Redux-Toolkit",
-          "Tailwind CSS"
+          { name: "JavaScript", level: 80 },
+          { name: "HTML", level: 90 },
+          { name: "CSS", level: 80 },
+          { name: "ReactJS/NextJS", level: 85 },
+          { name: "Redux-Toolkit", level: 75 },
+          { name: "Tailwind CSS", level: 75 }
         ]
       },
       {
         title: "Databases & Tools",
         skills: [
-          "MySQL",
-          "MongoDB",
-          "Git",
-          "Canva",
-          "Figma"
+          { name: "MySQL", level: 75 },
+          { name: "MongoDB", level: 60 },
+          { name: "Git", level: 85 },
+          { name: "Canva", level: 85 },
+          { name: "Figma", level: 65 }
         ]
       },
       {
         title: "Familiar With",
         skills: [
-          "Python",
-          "Angular",
-          "Bootstrap",
-          "AntDesign",
-          "AgGrid",
-          "Shadcn",
-          "Express JS"
+          { name: "Python", level: 60 },
+          { name: "Angular", level: 55 },
+          { name: "Bootstrap", level: 75 },
+          { name: "AntDesign", level: 75 },
+          { name: "AgGrid", level: 70 },
+          { name: "Shadcn", level: 70 },
+          { name: "Express JS", level: 70 }
         ]
       }
     ]
