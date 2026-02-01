@@ -96,6 +96,28 @@ export const personalData = {
   ],
   projects: [
     {
+      title: "SkySearch – Smarter flight decisions, faster",
+      description:
+        "A modern flight search and comparison web app that helps users explore, filter, and compare flights with clarity. Features real-time filtering, live price trends, and side-by-side comparisons in a fast, responsive interface.",
+      problem:
+        "Flight search results are often overwhelming, making it hard for users to judge value, compare options, and make confident decisions quickly—especially across price, duration, and stops.",
+      solution:
+        "Built a user-centric flight search experience with instant filtering and sorting, live price visualization, price confidence indicators, and an intuitive compare mode that highlights the best options across key criteria.",
+      tech: [
+        "Next.js",
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "MUI",
+        "Zustand",
+        "Recharts"
+      ],
+      links: {
+        live: "https://skysearch-snegi.vercel.app/",
+        github: "https://github.com/snegicodes/SkySearch"
+      }
+    },    
+    {
       title: "Silent Sentinel – Realtime Theft Detection",
       description: "A browser-based AI tool for real-time person detection from video input with automated email alerts. Built with Next.js, Tailwind CSS, and TensorFlow.js (COCO-SSD) for sub-1s response time.",
       problem: "Need for a privacy-compliant, real-time intrusion detection system that works without additional hardware or installation.",
@@ -108,27 +130,8 @@ export const personalData = {
         "COCO-SSD"
       ],
       links: {
-        live: "#",
+        live: "https://snegicodes-thief-detection.vercel.app/",
         github: "https://github.com/snegicodes/Silent-Sentinel"
-      }
-    },
-    {
-      title: "BookEase - Scheduling Made Easy",
-      description: "A comprehensive scheduling application with Google Calendar integration, secure authentication, and responsive UI. Built with Next.js, PostgreSQL, Clerk, and Shadcn/ui.",
-      problem: "Need for an efficient scheduling system that synchronizes with Google Calendar and provides secure, user-friendly booking management.",
-      solution: "Integrated Google Calendar API for automated slot synchronization, implemented Clerk for secure authentication, and developed a scalable backend with Next.js server actions, PostgreSQL, and Prisma ORM.",
-      tech: [
-        "Next.js",
-        "PostgreSQL",
-        "Clerk",
-        "Tailwind CSS",
-        "Shadcn",
-        "Prisma ORM",
-        "Google Calendar API"
-      ],
-      links: {
-        live: "#",
-        github: "https://github.com/snegicodes/BookEase"
       }
     },
     {
@@ -144,7 +147,7 @@ export const personalData = {
         "JavaScript"
       ],
       links: {
-        live: "#",
+        live: "https://vibecheck-snegi.vercel.app/",
         github: "https://github.com/snegicodes/VibeCheck"
       }
     }

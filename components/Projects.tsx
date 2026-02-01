@@ -8,7 +8,7 @@ export default function Projects() {
   const { projects } = personalData;
 
   const colors = ['bg-purple-200', 'bg-yellow-200', 'bg-cyan-200', 'bg-pink-200', 'bg-green-200', 'bg-orange-200'];
-  const emojis = ['🛡️', '📅', '✨', '🎨', '📊', '📝'];
+  const emojis = ['✈️', '🛡️', '✨'];
 
   const projectsWithStyles = projects.map((project, idx) => ({
     ...project,
