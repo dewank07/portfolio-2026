@@ -1,12 +1,12 @@
 export const personalData = {
   personal: {
-    firstName: "Sarthak",
-    lastName: "Negi",
-    fullName: "Sarthak Negi",
-    username: "snegicodes",
+    firstName: "Dewank",
+    lastName: "Rastogi",
+    fullName: "Dewank Rastogi",
+    username: "dewank07",
     title: "Software Development Engineer",
     status: "Available for opportunities",
-    location: "Noida, India",
+    location: "Pune, India",
     description: {
       short: "Crafting beautiful, performant and accessible web experiences with modern technologies.",
       long: "Focused on performance, accessibility and impactful solutions."
@@ -18,7 +18,7 @@ export const personalData = {
         content: "I'm a Software Development Engineer with experience in building modern, scalable web applications. My expertise lies in JavaScript, React, and Next.js, with a strong focus on creating performance-optimized user interfaces and impactful solutions that drive business growth."
       },
       {
-        content: "Currently working at Leverage Edu, I've developed Chrome extensions, custom CMS solutions, and migrated legacy systems to modern tech stacks. I have hands-on experience with WCAG 2.1 accessibility best practices, performance optimization, and building AI-powered features that enhance user experience and operational efficiency."
+        content: "Currently working at Amber Student, I've developed Chrome extensions, custom CMS solutions, and migrated legacy systems to modern tech stacks. I have hands-on experience with WCAG 2.1 accessibility best practices, performance optimization, and building AI-powered features that enhance user experience and operational efficiency."
       },
       {
         content: "I hold a Bachelor of Technology in Computer Science from AKTU University, Noida, India. My approach emphasizes clean code, accessibility, measurable impact, and engineering best practices to deliver exceptional user experiences."
