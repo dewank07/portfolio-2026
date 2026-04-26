@@ -8,150 +8,180 @@ export const personalData = {
     status: "Available for opportunities",
     location: "Pune, India",
     description: {
-      short: "Crafting beautiful, performant and accessible web experiences with modern technologies.",
-      long: "Focused on performance, accessibility and impactful solutions."
+      short: "Building scalable, high-performance web apps with strong focus on user experience and system efficiency.",
+      long: "Focused on performance, scalability, and building impactful, data-driven solutions across frontend and full-stack systems."
     }
   },
+
   about: {
     sections: [
       {
-        content: "I'm a Software Development Engineer with experience in building modern, scalable web applications. My expertise lies in JavaScript, React, and Next.js, with a strong focus on creating performance-optimized user interfaces and impactful solutions that drive business growth."
+        content:
+          "I'm a Software Development Engineer with hands-on experience in building scalable web applications and optimizing critical user flows. My expertise lies in JavaScript, React, and Next.js, with strong exposure to payment systems, real-time features, and performance optimization."
       },
       {
-        content: "Currently working at Amber Student, I've developed Chrome extensions, custom CMS solutions, and migrated legacy systems to modern tech stacks. I have hands-on experience with WCAG 2.1 accessibility best practices, performance optimization, and building AI-powered features that enhance user experience and operational efficiency."
+        content:
+          "Currently working at Amber Student, I’ve worked extensively on payment systems using Stripe, improved system reliability to 99.9% uptime, and optimized APIs and frontend performance. I’ve also built real-time chat systems, transactional communication services, and internal dashboards to drive operational efficiency."
       },
       {
-        content: "I hold a Bachelor of Technology in Computer Science from AKTU University, Noida, India. My approach emphasizes clean code, accessibility, measurable impact, and engineering best practices to deliver exceptional user experiences."
+        content:
+          "I hold a Bachelor of Technology in Computer Science from AKTU University. My approach emphasizes clean architecture, performance optimization, and building systems that deliver measurable business impact."
       }
     ]
   },
+
   education: {
     degree: "Bachelor of Technology",
     field: "Computer Science",
     university: "AKTU University",
     location: "Noida, India"
   },
+
   skills: {
     categories: [
       {
-        title: "Languages & Web Technologies",
+        title: "Languages",
         skills: [
-          { name: "JavaScript", level: 80 },
+          { name: "JavaScript", level: 85 },
+          { name: "C++", level: 70 }
+        ]
+      },
+      {
+        title: "Web Technologies",
+        skills: [
           { name: "HTML", level: 90 },
-          { name: "CSS", level: 80 },
-          { name: "ReactJS/NextJS", level: 85 },
-          { name: "Redux-Toolkit", level: 75 },
-          { name: "Tailwind CSS", level: 75 }
+          { name: "CSS", level: 85 },
+          { name: "ReactJS / NextJS", level: 90 },
+          { name: "Redux Toolkit", level: 80 },
+          { name: "Tailwind CSS", level: 85 },
+          { name: "Ruby on Rails", level: 65 }
         ]
       },
       {
         title: "Databases & Tools",
         skills: [
           { name: "MySQL", level: 75 },
-          { name: "MongoDB", level: 60 },
-          { name: "Git", level: 85 },
-          { name: "Canva", level: 85 },
-          { name: "Figma", level: 65 }
+          { name: "MongoDB", level: 70 },
+          { name: "Git", level: 90 },
+          { name: "Figma", level: 70 },
+          { name: "Canva", level: 85 }
         ]
       },
       {
         title: "Familiar With",
         skills: [
-          { name: "Python", level: 60 },
-          { name: "Angular", level: 55 },
-          { name: "Bootstrap", level: 75 },
-          { name: "AntDesign", level: 75 },
-          { name: "AgGrid", level: 70 },
-          { name: "Shadcn", level: 70 },
-          { name: "Express JS", level: 70 }
+          { name: "Stripe", level: 80 },
+          { name: "Mapbox", level: 75 },
+          { name: "Google Maps", level: 75 },
+          { name: "Express JS", level: 70 },
+          { name: "AWS", level: 60 },
+          { name: "Shadcn", level: 80 },
+          { name: "Mantine", level: 70 },
+          { name: "Jira", level: 75 }
         ]
       }
     ]
   },
+
   experience: [
     {
-      company: "Leverage Edu",
+      company: "Amber Student",
       role: "Software Development Engineer",
-      period: "Oct 2023 – Present",
-      location: "Noida, India",
+      period: "Feb 2024 – Present",
+      location: "Pune, India",
       achievements: [
-        "Developed a Chrome extension to auto-fill university forms using saved data, reducing form completion time by ~85% (30 mins to 5 mins), improving operational efficiency by 80% and minimizing manual errors by 90%; adopted daily by 50+ counselors to streamline onboarding",
-        "Built a custom CMS to manage student success stories, boosting engagement by 15% and session duration by 10%",
-        "Migrated 40+ legacy landing pages from PHP to Next.js and Strapi, improving page load speed by 35%, reducing bounce rate by 20%, and increasing organic traffic by 15%",
-        "Developed a high conversion landing page for NAS Daily campaign, generating 9,000+ leads in 1 hour and increasing the acquisition of quarterly leads by 40%",
-        "Refactored the frontend codebase with WCAG 2.1 accessibility best practices, reducing bundle size by 30%, improving load speed by 25%, and boosting Core Web Vitals by 15%",
-        "Led frontend development of AI-powered Course Finder and 111 Guarantee Scheme, enhancing user experience and improving lead qualification by 20%"
+        "Integrated Stripe SDK into the web payment system, reducing payment processing time by 30% and improving user experience",
+        "Maintained and optimized core payment flows with 99.9% uptime and reduced redundant payment intents by 40% using idempotent handling",
+        "Refactored Mapbox implementation, reducing bundle size and memory leaks, improving performance by 20%",
+        "Built a transactional communication service for WhatsApp and email notifications, reducing manual support by 40%",
+        "Implemented real-time chat with agent availability, reducing response latency and improving engagement",
+        "Improved overall site performance by 30% by diagnosing and fixing critical bottlenecks",
+        "Developed internal dashboards for payment tracking, reducing manual intervention by 50%"
       ]
     },
     {
-      company: "JobTwine",
+      company: "WhatBytes",
       role: "Software Engineer - Frontend",
-      period: "Jan 2023 - May 2023",
-      location: "Washington DC, Remote",
+      period: "Nov 2023 – Feb 2024",
+      location: "Remote",
       achievements: [
-        "Optimized frontend load times by 25% using code splitting, lazy loading, and performance techniques, enhancing user experience and reducing session delays",
-        "Built an advanced data visualization dashboard with React and Chart.js, enabling effective tracking of interviewee performance and increasing operational efficiency by 40%"
+        "Built and launched 3 MVPs from scratch, accelerating early-stage product traction",
+        "Enabled startups to iterate faster, reducing time to market by 30%",
+        "Contributed to a low-code internal tool, improving development speed by 40%"
+      ]
+    },
+    {
+      company: "Freelance",
+      role: "Frontend Developer",
+      period: "Apr 2020 – Jan 2024",
+      location: "Remote",
+      achievements: [
+        "Developed static and dynamic websites for clients using React, Next.js, and Supabase",
+        "Delivered end-to-end solutions from design (Figma) to deployment"
       ]
     }
   ],
+
   projects: [
     {
-      title: "SkySearch – Smarter flight decisions, faster",
+      title: "DewCode – Code Share Platform",
       description:
-        "A modern flight search and comparison web app that helps users explore, filter, and compare flights with clarity. Features real-time filtering, live price trends, and side-by-side comparisons in a fast, responsive interface.",
+        "An online IDE with multi-language support and community-driven code sharing.",
       problem:
-        "Flight search results are often overwhelming, making it hard for users to judge value, compare options, and make confident decisions quickly—especially across price, duration, and stops.",
+        "Developers lack lightweight platforms for quick code execution and sharing without heavy setup.",
       solution:
-        "Built a user-centric flight search experience with instant filtering and sorting, live price visualization, price confidence indicators, and an intuitive compare mode that highlights the best options across key criteria.",
+        "Built a Next.js 15-based IDE with execution tracking, theming, webhook integration, and Lemon Squeezy payments.",
       tech: [
-        "Next.js",
-        "React",
-        "JavaScript",
-        "Tailwind CSS",
-        "MUI",
-        "Zustand",
-        "Recharts"
+        "Next.js 15",
+        "Convex",
+        "Clerk",
+        "TypeScript"
       ],
       links: {
-        live: "https://skysearch-snegi.vercel.app/",
-        github: "https://github.com/snegicodes/SkySearch"
-      }
-    },    
-    {
-      title: "Silent Sentinel – Realtime Theft Detection",
-      description: "A browser-based AI tool for real-time person detection from video input with automated email alerts. Built with Next.js, Tailwind CSS, and TensorFlow.js (COCO-SSD) for sub-1s response time.",
-      problem: "Need for a privacy-compliant, real-time intrusion detection system that works without additional hardware or installation.",
-      solution: "Developed a browser-based solution using TensorFlow.js for local processing, with Nodemailer integration for automated alerts. Ensured 100% offline detection with no data saved to external servers.",
-      tech: [
-        "Next.js",
-        "Tailwind CSS",
-        "TensorFlow.js",
-        "Nodemailer",
-        "COCO-SSD"
-      ],
-      links: {
-        live: "https://snegicodes-thief-detection.vercel.app/",
-        github: "https://github.com/snegicodes/Silent-Sentinel"
+        live: "https://dew-code-one.vercel.app/",
+        github: ""
       }
     },
     {
-      title: "VibeCheck – Instant Tone Rewriter",
-      description: "An AI-powered tool that instantly rewrites any message into selected tones (professional, friendly, formal, casual, promotional, and more). Get polished rewrites in under 5 seconds with a smooth, intuitive interface.",
-      problem: "Users need a quick way to adapt their messages for different contexts—students rewriting emails, professionals refining client communication, content creators adjusting captions, and business owners polishing outreach messages.",
-      solution: "Built a fast, user-friendly web application powered by Gemini API that supports up to 2000 characters, multiple predefined tones, one-click copy functionality, and robust error handling with input sanitization to prevent prompt injection.",
+      title: "Elixir Tech Community",
+      description:
+        "An open-source platform connecting students with working professionals.",
+      problem:
+        "Students lack access to direct mentorship and industry exposure.",
+      solution:
+        "Built a scalable community platform with user engagement features, growing to 1K+ monthly users.",
       tech: [
         "Next.js",
-        "Gemini API",
         "Tailwind CSS",
-        "React",
-        "JavaScript"
+        "Shadcn",
+        "Redux",
+        "MongoDB"
       ],
       links: {
-        live: "https://vibecheck-snegi.vercel.app/",
-        github: "https://github.com/snegicodes/VibeCheck"
+        live: "https://www.elixircommunity.in/",
+        github: ""
+      }
+    },
+    {
+      title: "DewTools V2 – Developer Utility Suite",
+      description:
+        "A multi-utility toolset for developers including API tester, regex builder, JSON visualizer, and more.",
+      problem:
+        "Developers rely on multiple tools for small tasks, breaking workflow.",
+      solution:
+        "Created an extensible all-in-one tool platform for faster development workflows.",
+      tech: [
+        "Next.js",
+        "Tailwind CSS",
+        "Shadcn"
+      ],
+      links: {
+        live: "https://dew-tools-v2.vercel.app/",
+        github: ""
       }
     }
   ],
+
   contact: {
     email: "dewankrastogi007@gmail.com",
     phone: "+918057116644",
@@ -165,13 +195,19 @@ export const personalData = {
         username: "dewankrastogi",
         url: "https://linkedin.com/in/dewankrastogi",
         display: "LinkedIn / dewankrastogi"
+      },
+      portfolio: {
+        url: "https://dewank.vercel.app/",
+        display: "Portfolio / dewank"
       }
     },
-    message: "Let's connect! Whether you're looking for a frontend engineer or want to discuss a project, I'd love to hear from you."
+    message:
+      "Let’s connect! I’m open to backend/full-stack roles, interesting projects, or anything involving scaling real-world systems."
   },
+
   meta: {
-    lastUpdated: "2026-01-27",
-    version: "1.0.0",
-    description: "Personal portfolio data for Sarthak Negi - Software Development Engineer"
+    lastUpdated: "2026-04-26",
+    version: "2.0.0",
+    description: "Personal portfolio data for Dewank Rastogi - Software Development Engineer"
   }
 } as const;
