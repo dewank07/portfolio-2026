@@ -153,18 +153,18 @@ export const personalData = {
     }
   ],
   contact: {
-    email: "snegijob@gmail.com",
-    phone: "+919891102395",
+    email: "dewankrastogi007@gmail.com",
+    phone: "+918057116644",
     social: {
       github: {
-        username: "snegicodes",
-        url: "https://github.com/snegicodes",
-        display: "GitHub / snegicodes"
+        username: "dewank07",
+        url: "https://github.com/dewank07",
+        display: "GitHub / dewank07"
       },
       linkedin: {
-        username: "snegicodes",
-        url: "https://linkedin.com/in/snegicodes",
-        display: "LinkedIn / snegicodes"
+        username: "dewankrastogi",
+        url: "https://linkedin.com/in/dewankrastogi",
+        display: "LinkedIn / dewankrastogi"
       }
     },
     message: "Let's connect! Whether you're looking for a frontend engineer or want to discuss a project, I'd love to hear from you."
